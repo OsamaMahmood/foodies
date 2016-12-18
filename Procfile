@@ -1,1 +1,1 @@
-web: gunicorn foodiespk.wsgi --log-file -     
+web: gunicorn foodiespk.wsgi --log-file -

@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-GEOPOSITION_GOOGLE_MAPS_API_KEY = 'AIzaSyDO8HArWZPROayaLrDq6EDMn0yqwFE-0zc'
+GEOPOSITION_GOOGLE_MAPS_API_KEY = os.environ.get('Gmaps')
 
 # Application definition
 
